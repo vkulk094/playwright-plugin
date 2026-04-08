@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "playwright-python"
+version = "0.1.0"
+description = "Playwright helpers for browser automation, scraping, and website workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "playwright>=1.50,<2",
+]
+
+[project.scripts]
+playwright-python = "playwright_python.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

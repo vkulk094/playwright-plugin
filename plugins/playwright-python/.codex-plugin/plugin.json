@@ -1,0 +1,31 @@
+{
+  "name": "playwright-python",
+  "version": "0.1.0",
+  "description": "Python Playwright helpers for browser automation, scraping, and website workflows.",
+  "keywords": [
+    "playwright",
+    "python",
+    "browser",
+    "scraping",
+    "automation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Playwright Python",
+    "shortDescription": "Browser automation and scraping with Python Playwright.",
+    "longDescription": "A starter plugin for opening websites, scraping content, and automating browser workflows with Python Playwright.",
+    "developerName": "Codex",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Open a site and capture the key data.",
+      "Scrape a table and export the rows.",
+      "Automate a login and screenshot the result."
+    ],
+    "brandColor": "#0F62FE"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://example.com/products",
+  "wait_for": ".card",
+  "list_selector": ".card",
+  "next_selector": "a.next",
+  "max_pages": 3,
+  "fields": {
+    "title": ".title",
+    "price": ".price"
+  },
+  "attr_fields": {
+    "href": "a@href"
+  },
+  "format": "json"
+}
